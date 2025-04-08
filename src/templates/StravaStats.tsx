@@ -7,12 +7,12 @@ const StravaStats = () => {
   const [stats, setStats] = useState({
     totalDistance: 0,
     totalActivities: 0,
-    startDate: '2024-04-01',
+    startDate: '2025-05-01',
   });
 
   useEffect(() => {
     async function fetchStats() {
-      const stravaStats = await getStravaStats('2024-04-01');
+      const stravaStats = await getStravaStats('2025-05-01');
       setStats(stravaStats);
     }
     fetchStats();

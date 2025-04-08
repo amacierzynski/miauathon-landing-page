@@ -5,11 +5,13 @@ import { Hero } from './Hero';
 import { VerticalFeatures } from './VerticalFeatures';
 import { StravaStats } from './StravaStats';
 import { FunComparisons } from './FunComparisons';
+import { AboutMe } from './AboutMe';
 
 const Base = () => (
   <div className="text-gray-600 antialiased">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Hero />
+    <AboutMe />
     <VerticalFeatures />
     <StravaStats />
     <FunComparisons />
