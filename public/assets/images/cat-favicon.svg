@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cat head -->
+  <circle cx="256" cy="256" r="200" fill="#FF6B6B"/>
+  
+  <!-- Cat ears -->
+  <path d="M156 156 L256 56 L356 156" fill="#FF6B6B"/>
+  <path d="M356 156 L456 56 L356 156" fill="#FF6B6B"/>
+  
+  <!-- Cat eyes -->
+  <circle cx="196" cy="216" r="20" fill="white"/>
+  <circle cx="316" cy="216" r="20" fill="white"/>
+  <circle cx="196" cy="216" r="10" fill="black"/>
+  <circle cx="316" cy="216" r="10" fill="black"/>
+  
+  <!-- Cat nose -->
+  <path d="M256 246 L266 266 L246 266 Z" fill="#FFB6C1"/>
+  
+  <!-- Cat whiskers -->
+  <path d="M146 236 L196 246" stroke="black" stroke-width="4"/>
+  <path d="M146 256 L196 256" stroke="black" stroke-width="4"/>
+  <path d="M146 276 L196 266" stroke="black" stroke-width="4"/>
+  <path d="M316 246 L366 236" stroke="black" stroke-width="4"/>
+  <path d="M316 256 L366 256" stroke="black" stroke-width="4"/>
+  <path d="M316 266 L366 276" stroke="black" stroke-width="4"/>
+</svg> 

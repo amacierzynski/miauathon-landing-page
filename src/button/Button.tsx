@@ -3,6 +3,7 @@ import className from 'classnames';
 type IButtonProps = {
   xl?: boolean;
   children: string;
+  className?: string;
 };
 
 const Button = (props: IButtonProps) => {
@@ -11,7 +12,7 @@ const Button = (props: IButtonProps) => {
     'btn-xl': props.xl,
     'btn-base': !props.xl,
     'btn-primary': true,
-  });
+  }, props.className);
 
   return (
     <div className={btnClass}>
