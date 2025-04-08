@@ -1,6 +1,6 @@
+import Image from 'next/image';
 import { Section } from '../layout/Section';
 import { Background } from '../background/Background';
-import Image from 'next/image';
 
 const AboutMe = () => (
   <Background color="bg-white">
